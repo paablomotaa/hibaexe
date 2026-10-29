@@ -72,7 +72,7 @@ const giftContent = {
   },
   music: {
     icon: '🎧',
-    text: 'Banda sonora oficial del día: “Masterpiece” de Motionless In White a todo volumen (con responsabilidad si hay vecinos 😭).',
+    text: 'Banda sonora oficial del día: “Masterpiece” de Motionless In White a todo volumen (que le den a los vecinos).',
     link: 'https://open.spotify.com/search/Motionless%20In%20White%20Masterpiece',
     linkText: 'Buscar la canción en Spotify ↗'
   },
