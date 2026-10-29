@@ -68,7 +68,7 @@ $('#lunaButton').addEventListener('click', () => {
 const giftContent = {
   message: {
     icon: '💌',
-    text: 'Hiba, feliz cumpleaños. Espero que tus 21 estén llenos de cosas que te hagan feliz, personas que te quieran bien y momentos que recuerdes con una sonrisa. No cambies esa mezcla tuya de dulzura, humor raro y gustos increíbles. Te mereces cosas bonitas. ♡'
+    text: 'Hiba, feliz cumpleaños. Espero que tus 21 estén llenos de cosas que te hagan feliz, personas que te quieran bien y momentos que recuerdes con una sonrisa. No cambies esa mezcla tuya de dulzura, esa risa que te sale y esos gustos increíbles. Te mereces cosas bonitas. ♡'
   },
   music: {
     icon: '🎧',
