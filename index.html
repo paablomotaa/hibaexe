@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#ff77b7">
+  <meta name="description" content="Una mini página de cumpleaños hecha con cariño para Hiba.">
+  <title>¡Feliz cumple, Hiba! ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="floating-decor" aria-hidden="true">
+    <span class="float f1">♡</span><span class="float f2">✦</span>
+    <span class="float f3">୨୧</span><span class="float f4">★</span>
+    <span class="float f5">♡</span><span class="float f6">✧</span>
+  </div>
+
+  <header class="topbar">
+    <a class="logo" href="#inicio" aria-label="Volver al inicio">hiba.exe <span>♡</span></a>
+    <button class="chaos-button" id="chaosButton" type="button">Modo brainrot: OFF <span>🧠</span></button>
+  </header>
+
+  <main>
+    <section class="hero section" id="inicio">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle">✦</span> ATENCIÓN, PERSONAJE PRINCIPAL <span class="sparkle">✦</span></p>
+        <h1>Feliz cumple,<br><span class="name">Hiba</span><span class="heart">♡</span></h1>
+        <p class="hero-subtitle">¡Has desbloqueado el nivel <strong>21</strong>!</p>
+        <p class="hero-text">Un año más siendo icónica, un poquito retrasada y absolutamente única. Esta página es para ti, guiba. 💗</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#regalos">Abrir mis regalos <span>🎁</span></a>
+          <button class="button secondary" id="confettiButton" type="button">Lanzar confeti <span>✨</span></button>
+        </div>
+        <div class="mini-note">hecha con cariño y una cantidad cuestionable de autismo</div>
+      </div>
+      <div class="hero-art">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="sticker sticker-star">✦</div>
+        <div class="birthday-card">
+          <div class="card-top">HIBA'S BIRTHDAY</div>
+          <div class="cake" aria-label="Tarta de cumpleaños">🎂</div>
+          <div class="big-21">21</div>
+          <div class="card-bottom">main character energy</div>
+          <div class="tiny-heart">♡</div>
+        </div>
+        <div class="sticker sticker-cat">🐈‍⬛</div>
+        <div class="sticker sticker-bow">🎀</div>
+        <div class="sticker sticker-spark">💖</div>
+      </div>
+    </section>
+
+    <section class="section love-section">
+      <div class="section-heading">
+        <p class="eyebrow">UN INFORME CIENTÍFICO MUY SERIO</p>
+        <h2>Hiba en su hábitat natural</h2>
+        <p>Datos totalmente reales sobre la cumpleañera.</p>
+        <small>Fuentes: yo me lo he inventado.</small>
+      </div>
+      <div class="interest-grid">
+        <article class="interest-card card-pink">
+          <div class="interest-icon">🐬</div><h3>Darwin enjoyer</h3>
+          <p>Hiba es una Darwin girl, se levanta a las 5 de la mañana a ver El Asombroso Mundo de Gumball💀</p>
+          <span class="tag">100% iconic</span>
+        </article>
+        <article class="interest-card card-lilac">
+          <div class="interest-icon">🧠</div><h3>Brainrot certified</h3>
+          <p>Hiba tenemos 21 años como para estar constantemente haciendo bromas de 67, no lo cambies nunca.</p>
+          <span class="tag">skibidi nivel experto</span>
+        </article>
+        <article class="interest-card card-peach">
+          <div class="interest-icon">📚</div><h3>Anime & manga</h3>
+          <p>Con 21 años todavia viendo dibujitos de anime y manga... No se puede farmear más aura.</p>
+          <span class="tag">protagonista shōjo</span>
+        </article>
+        <article class="interest-card card-blue">
+          <div class="interest-icon">🐈</div><h3>Team Luna</h3>
+          <p>Pasa foto pies de Luna, pasa foto pies de Luna, pasa foto pies de Luna, pasa foto pies de Luna</p>
+          <span class="tag">Luna supremacy</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="section luna-section">
+      <div class="luna-panel">
+        <div class="luna-illustration" aria-hidden="true">
+          <div class="moon">☾</div><div class="cat-face">🐈‍⬛</div><div class="little-star star-a">✦</div><div class="little-star star-b">✧</div>
+        </div>
+        <div class="luna-copy">
+          <p class="eyebrow">COMUNICADO OFICIAL DE LA GATA</p>
+          <h2>Mensaje de Luna 🐾</h2>
+          <blockquote id="lunaMessage">“Hola Hiba, feliz cumpleaños y espero que entiendas que me voy a casar con Pablo.”</blockquote>
+          <button class="button dark-button" id="lunaButton" type="button">Otro mensaje de Luna <span>🐾</span></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section gifts-section" id="regalos">
+      <div class="section-heading">
+        <p class="eyebrow">TU INVENTARIO DE CUMPLEAÑOS</p>
+        <h2>Regalitos desbloqueables</h2>
+        <p>Haz clic. No muerden. Bueno, el brainrot quizá sí.</p>
+      </div>
+      <div class="gift-grid">
+        <button class="gift-card" data-gift="message" type="button">
+          <span class="gift-emoji">💌</span><span class="gift-title">Una notita</span><span class="gift-hint">abrir regalo ↗</span>
+        </button>
+        <button class="gift-card" data-gift="music" type="button">
+          <span class="gift-emoji">🎧</span><span class="gift-title">Tu soundtrack</span><span class="gift-hint">abrir regalo ↗</span>
+        </button>
+        <button class="gift-card" data-gift="brainrot" type="button">
+          <span class="gift-emoji">🧠</span><span class="gift-title">Predicción brainrot</span><span class="gift-hint">abrir regalo ↗</span>
+        </button>
+      </div>
+      <div class="gift-result" id="giftResult" aria-live="polite">
+        <span class="result-icon">🎀</span>
+        <p>Elige un regalo de arriba para descubrir tu sorpresa.</p>
+      </div>
+    </section>
+
+    <section class="section final-section">
+      <div class="final-card">
+        <span class="final-bow">🎀</span>
+        <p class="eyebrow">ÚLTIMO MENSAJE, LO PROMETO (MENTIRA)</p>
+        <h2>Que tus 21 sean <span>legendarios</span></h2>
+        <p>Ojalá este año te traiga risas absurdas, mangas buenísimos, canciones para gritar, momentos bonitos y muchos ronroneos de Luna. Gracias por ser tú. 💗</p>
+        <button class="button primary big-button" id="finalButton" type="button">Pulsa aquí para tu bendición <span>✨</span></button>
+        <p class="blessing" id="blessing" hidden></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Hecho especialmente para Hiba <span>♡</span> · edición 21</p>
+    <a href="#inicio">volver arriba ↑</a>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="confetti-layer" id="confettiLayer" aria-hidden="true"></div>
+</body>
+</html>
